@@ -16,3 +16,8 @@ class character:
     colour: colour = colour()
     char: str = "A"
     invert: bool = False 
+
+@dataclass 
+class tRange:
+    start: vector2
+    stop: vector2
